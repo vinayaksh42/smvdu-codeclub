@@ -9,6 +9,7 @@
 ### Reference website
 
 1. http://codeit.mit.edu/
+2. https://templated.co/transit
 
 
 ### color pallet to be followed
