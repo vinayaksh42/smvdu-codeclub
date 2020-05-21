@@ -1,8 +1,15 @@
 # Smvdu-CodeClub
 
+![Issues](https://img.shields.io/github/issues/vinayaksh42/smvdu-codeclub)
+![Pull Requests](https://img.shields.io/github/issues-pr/vinayaksh42/smvdu-codeclub)
+![Forks](https://img.shields.io/github/forks/vinayaksh42/smvdu-codeclub)
+![Stars](	https://img.shields.io/github/stars/vinayaksh42/smvdu-codeclub)
+
+
 ### Reference website
 
 1. http://codeit.mit.edu/
+
 
 ### color pallet to be followed
 
@@ -31,10 +38,6 @@ The color pallet below is to be followed to maintain a uniform look across all t
 3. Add necessary comments wherever possible.
 
 
-![Issues](https://img.shields.io/github/issues/vinayaksh42/smvdu-codeclub)
-![Pull Requests](https://img.shields.io/github/issues-pr/vinayaksh42/smvdu-codeclub)
-![Forks](https://img.shields.io/github/forks/vinayaksh42/smvdu-codeclub)
-![Stars](	https://img.shields.io/github/stars/vinayaksh42/smvdu-codeclub)
 
 
 ## Tech Stack Used:
