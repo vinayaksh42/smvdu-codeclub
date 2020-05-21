@@ -3,7 +3,6 @@
 ### Reference website
 
 1. http://codeit.mit.edu/
-2. https://templated.co/transit
 
 ### color pallet to be followed
 
@@ -24,8 +23,7 @@ The color pallet below is to be followed to maintain a uniform look across all t
 ### Screenshots
 #### code it
 ![screencapture-codeit-mit-edu-2020-05-21-15_42_50](https://user-images.githubusercontent.com/54861487/82548983-d8de0b00-9b79-11ea-9716-b5487fc0e1b7.png)
-#### transit
-![screencapture-templated-co-transit-2020-05-21-15_45_57](https://user-images.githubusercontent.com/54861487/82549223-383c1b00-9b7a-11ea-8afe-a5ec629fa506.png)
+
 
 ## Contributing to this repo
 1. All commits need to be made via pull requests.
