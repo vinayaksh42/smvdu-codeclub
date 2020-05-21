@@ -1,0 +1,72 @@
+/* body,html */
+
+html {
+    scroll-behavior: smooth;
+    min-height: 100%;
+    position: relative;
+    overflow-x: hidden;
+  }
+  
+/* header */
+.navbar{
+    background: transparent;
+    position: absolute;
+    width: 100%;
+    color: blue;
+}
+
+.sticky{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index:10;
+  }
+  
+
+  .logoimg{
+      width: 10%;
+      height: 10%;
+  }
+  
+
+/* parallax */
+
+  .parallax{
+  background-image: url("../Assets/back.png");
+  height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  }
+
+  .parallax-inner{
+      width: 20%;
+      height: 200px;
+      margin-top: 100px;
+      background: rgba(255,255,255,0.3);
+      position: absolute;
+      margin-left: 40%;
+      text-align: center;
+      color: white;
+  }
+
+  /* content */
+  
+  
+
+  /* footer */
+
+
+  
+  footer {
+    background-color: #E8EEF4;
+    color: #f5f5f5;
+    top: 0;
+    font-size: 1rem;
+    position: absolute;
+    width: 100%;
+    margin-top: 100%;
+    text-align: center;
+  }
