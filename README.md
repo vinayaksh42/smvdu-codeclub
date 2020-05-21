@@ -1,4 +1,37 @@
-# smvdu-codeclub
+# Smvdu-CodeClub
+
+### Reference website
+
+1. http://codeit.mit.edu/
+2. https://templated.co/transit
+
+### color pallet to be followed
+
+The color pallet below is to be followed to maintain a uniform look across all the web pages. Still you are free to use any other color but they should match with the colors below.
+
+1. #f46c0c ![chrome_3XsAjTbs90](https://user-images.githubusercontent.com/54861487/82550299-ec8a7100-9b7b-11ea-8f3d-762292855351.png)
+
+2. #2fccdf ![chrome_S8EsjXH99Q](https://user-images.githubusercontent.com/54861487/82550382-0a57d600-9b7c-11ea-95c0-2e9244b2c8e2.png)
+
+3. #2d95c8 ![chrome_ipGvbri9TS](https://user-images.githubusercontent.com/54861487/82550457-2d828580-9b7c-11ea-8580-c7e88724933f.png)
+
+4. #2c50ac ![chrome_W2g5DSUDog](https://user-images.githubusercontent.com/54861487/82550540-51de6200-9b7c-11ea-9bdc-a3f6a9003265.png)
+
+5. #070707 ![chrome_6HrWxXKqCD](https://user-images.githubusercontent.com/54861487/82550631-78040200-9b7c-11ea-8460-8b9b4161e4cc.png)
+
+6. #71859a ![chrome_mVpFJw3Guh](https://user-images.githubusercontent.com/54861487/82550692-91a54980-9b7c-11ea-9690-5708bef6e510.png)
+
+### Screenshots
+#### code it
+![screencapture-codeit-mit-edu-2020-05-21-15_42_50](https://user-images.githubusercontent.com/54861487/82548983-d8de0b00-9b79-11ea-9716-b5487fc0e1b7.png)
+#### transit
+![screencapture-templated-co-transit-2020-05-21-15_45_57](https://user-images.githubusercontent.com/54861487/82549223-383c1b00-9b7a-11ea-8afe-a5ec629fa506.png)
+
+## Contributing to this repo
+1. All commits need to be made via pull requests.
+2. old code from https://github.com/ayushsatyam146/SMVDUCodeClub can be used but avoid directly copying the whole file and instead only copy the important part from it. Keep the code as clean as possible.
+3. Add necessary comments wherever possible.
+
 
 ![Issues](https://img.shields.io/github/issues/vinayaksh42/smvdu-codeclub)
 ![Pull Requests](https://img.shields.io/github/issues-pr/vinayaksh42/smvdu-codeclub)
