@@ -66,7 +66,38 @@ html {
     top: 0;
     font-size: 1rem;
     position: absolute;
+    height: auto;
     width: 100%;
     margin-top: 100%;
     text-align: center;
+  }
+
+  .foot-icons{
+    padding-top:4%;
+    padding-bottom:2%;
+    width:100%;
+    height: auto;
+    margin:auto;
+  
+  }
+
+  .foot-icons ul{
+    margin:0px;
+    padding: 0px;
+    
+  }
+
+  .foot-icons ul li{
+    display: inline-block;
+    width:50px;
+    height:50px;
+    margin: 0px 10px;
+    border-radius: 100%;
+    border: 5px solid #2d95c8;
+    background-color: #2d95c8; 
+  }
+
+  .foot-icons ul li a i{
+    line-height:43px;
+    color:#ffffff;
   }
