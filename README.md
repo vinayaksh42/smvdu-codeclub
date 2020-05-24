@@ -3,14 +3,12 @@
 ![Issues](https://img.shields.io/github/issues/vinayaksh42/smvdu-codeclub)
 ![Pull Requests](https://img.shields.io/github/issues-pr/vinayaksh42/smvdu-codeclub)
 ![Forks](https://img.shields.io/github/forks/vinayaksh42/smvdu-codeclub)
-![Stars](	https://img.shields.io/github/stars/vinayaksh42/smvdu-codeclub)
-
+![Stars](https://img.shields.io/github/stars/vinayaksh42/smvdu-codeclub)
 
 ### Reference website
 
 1. http://codeit.mit.edu/
 2. https://templated.co/transit
-
 
 ### color pallet to be followed
 
@@ -29,27 +27,26 @@ The color pallet below is to be followed to maintain a uniform look across all t
 6. #71859a ![chrome_mVpFJw3Guh](https://user-images.githubusercontent.com/54861487/82550692-91a54980-9b7c-11ea-9690-5708bef6e510.png)
 
 ### Screenshots
+
 #### code it
+
 ![screencapture-codeit-mit-edu-2020-05-21-15_42_50](https://user-images.githubusercontent.com/54861487/82548983-d8de0b00-9b79-11ea-9716-b5487fc0e1b7.png)
 
-
 ## Contributing to this repo
+
 1. All commits need to be made via pull requests.
 2. old code from https://github.com/ayushsatyam146/SMVDUCodeClub can be used but avoid directly copying the whole file and instead only copy the important part from it. Keep the code as clean as possible.
 3. Add necessary comments wherever possible.
 
-
-
-
 ## Tech Stack Used:
-**1.**  HTML <br>
-**2.**  CSS  <br>
-**4.**  JAVASCRIPT <br>
 
- ![Html](https://media.giphy.com/media/fuJPZBIIqzbt1kAYVc/giphy.gif)
- 
- 
- ## Contribution Guidelines
+**1.** HTML <br>
+**2.** CSS <br>
+**4.** JAVASCRIPT <br>
+
+![Html](https://media.giphy.com/media/fuJPZBIIqzbt1kAYVc/giphy.gif)
+
+## Contribution Guidelines
 
 #### 👇 Prerequisites:
 
@@ -60,15 +57,13 @@ The color pallet below is to be followed to maintain a uniform look across all t
 - UI/UX skills are appreciable but not mandatory
 - Additional backend skills of NodeJS
 
-
 #### Steps:
+
 ![Steps](https://media.giphy.com/media/o5BzNDDFQnepi/giphy.gif)
 
 **1.** Fork [this](https://github.com/vinayaksh42/smvdu-codeclub) repository :fork_and_knife:
 
-
 <img src="https://user-images.githubusercontent.com/41269164/70219309-9a3eca80-176a-11ea-8a4d-1bd701d07314.png" width=300>
-
 
 **2.** Clone your forked repository to your local system :busts_in_silhouette:
 
@@ -94,16 +89,16 @@ git checkout -b <your_branch_name>
 
 ![changes](https://media.giphy.com/media/QNFhOolVeCzPQ2Mx85/200w_d.gif)
 
-
 **6.** Commit your changes.
-```
+
+````
 Type in a message relevant for the code reveiwer using
 
        ```sh
        # This message get associated with all files you have changed
        $ git commit -m "description about changes"
         ```
-```
+````
 
 **7.** Push your local branch to the remote repository.
 
@@ -112,7 +107,6 @@ git push -u origin <your_branch_name>
 ```
 
 **8.** Create a Pull Request!
-
 
 Finally, go to your repository in browser and click on `compare and pull requests`.
 Then add a title and description to your pull request that explains your precious effort.
@@ -123,10 +117,32 @@ click on `Compare and Pull Request`
 		
 <img src="https://user-images.githubusercontent.com/41269164/70219836-8d6ea680-176b-11ea-81d5-549093bf0954.png" width=600>
 
-
 **Congratulations!** Sit and relax, you've made your contribution to [SMVDU CODECLUB](https://github.com/vinayaksh42/smvdu-codeclub) project.
 
-## 👬  Mentors and Project Maintainers
+## How to update the master branch
+
+1. First add upstream to your local git. (make sure you are in your master branch)
+
+```bash
+        git checkout master
+        git remote add upstream https://github.com/vinayaksh42/smvdu-codeclub.git
+```
+
+2. Then fetch the content from the github
+
+```bash
+        git fetch upstream
+```
+
+3. After fetching content from the github merge these content into your local branch
+
+```bash
+        git merge upstream/master
+```
+
+### You are done now. You successfully updated your local master.
+
+## 👬 Mentors and Project Maintainers
 
 ![Project Maintainers](https://media.giphy.com/media/fQZX2aoRC1Tqw/giphy.gif)
 
@@ -134,4 +150,3 @@ click on `Compare and Pull Request`
 - [Mritunjay Goutam](https://github.com/mritunjayz)
 - [Alok Kumar](https://github.com/iFlameing)
 - [Aryaman Puri](https://github.com/aryamanpuri)
-
