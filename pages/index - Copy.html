@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CodeClub SMVDU</title>
+  <link rel = "icon" href ="../pics/logo.png" type = "image/x-icon"> 
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="../css/index.css" />
+
+  <link rel="stylesheet" type="text/css" href="../css/header.css" />
+	
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+	<link rel="stylesheet" href="../css/preloader.css">
+
+  <script defer src="../js/theme.js"></script>
+
+
+
+</head>
+
+
+
+<body>
+<!--  
+<div class="sticky">
+<nav class="navbar navbar-expand-md bg-dark navbar-dark">
+	<a class="navbar-brand" href="index.html">
+    <img class="logoimg" src="../pics/logo.png" alt="logo" >
+  </a>
+  
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="events.html">Events</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="hostclasses.html">Host Classes</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropbtn" href="resources.html">Resources</a>
+        <ul class="dropdown-content">
+        	<li class="nav-item">
+        	<a class="nav-link" href="language.html">Learn Language</a>
+            </li>
+        	<li class="nav-item">
+        	<a class="nav-link" href="webdevelopment.html">Web Development</a>
+        	</li>	
+        	<li class="nav-item">
+        	<a class="nav-link" href="ml.html">Machine Learning</a>
+        	</li>	
+        	<li class="nav-item">
+        	<a class="nav-link" href="cp.html">Competitive Programming</a>
+        	</li>	
+        	<li class="nav-item">
+        	<a class="nav-link" href="eh.html">Ethical Hacking</a>
+        	</li>	
+        	<li class="nav-item">
+        	<a class="nav-link" href="mt.html">Misc</a>
+        	</li>	
+        </ul>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="blog.html">Blogs</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="discussion.html">Discussion</a>
+      </li>
+      <li class="nav-item" style="float:right;">
+       <a class="nav-link" href="dashboard.html">Dashboard</a>
+      </li>  
+      <li class="nav-item ml-auto" style="float:right;" id="conduct">
+       <a class="nav-link" href="conduct.html">Code Of Conduct</a>
+      </li>      	    
+  </div>    
+    </ul>
+  </div>  
+</nav>
+</div>
+
+-->
+  <nav class="navbar1">
+    <ul class="navbar-nav">
+      <li class="logo">
+        <a href="#" class="nav-link">
+          <span class="link-text logo-text">CODECLUB</span>
+          <svg
+            aria-hidden="true"
+            focusable="false"
+            data-prefix="fad"
+            data-icon="angle-double-right"
+            role="img"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 448 512"
+            class="svg-inline--fa fa-angle-double-right fa-w-14 fa-5x"
+          >
+            <g class="fa-group">
+              <path
+                fill="currentColor"
+                d="M224 273L88.37 409a23.78 23.78 0 0 1-33.8 0L32 386.36a23.94 23.94 0 0 1 0-33.89l96.13-96.37L32 159.73a23.94 23.94 0 0 1 0-33.89l22.44-22.79a23.78 23.78 0 0 1 33.8 0L223.88 239a23.94 23.94 0 0 1 .1 34z"
+                class="fa-secondary"
+              ></path>
+              <path
+                fill="currentColor"
+                d="M415.89 273L280.34 409a23.77 23.77 0 0 1-33.79 0L224 386.26a23.94 23.94 0 0 1 0-33.89L320.11 256l-96-96.47a23.94 23.94 0 0 1 0-33.89l22.52-22.59a23.77 23.77 0 0 1 33.79 0L416 239a24 24 0 0 1-.11 34z"
+                class="fa-primary"
+              ></path>
+            </g>
+          </svg>
+        </a>
+      </li>
+
+      <li class="nav-item">
+        <a href="#" class="nav-link">
+          <svg 
+      aria-hidden="true" 
+      focusable="false" 
+      data-prefix="fas" 
+      data-icon="calendar-week" 
+      class="svg-inline--fa fa-calendar-week fa-w-14" 
+      role="img" 
+      xmlns="http://www.w3.org/2000/svg" 
+      viewBox="0 0 448 512">
+    <path fill="currentColor" d="M0 464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V192H0v272zm64-192c0-8.8 7.2-16 16-16h288c8.8 0 16 7.2 16 16v64c0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16v-64zM400 64h-48V16c0-8.8-7.2-16-16-16h-32c-8.8 0-16 7.2-16 16v48H160V16c0-8.8-7.2-16-16-16h-32c-8.8 0-16 7.2-16 16v48H48C21.5 64 0 85.5 0 112v48h448v-48c0-26.5-21.5-48-48-48z"></path>
+    </svg>
+            <g class="fa-group">
+              <path
+                fill="currentColor"
+                d="M448 96h-64l-64-64v134.4a96 96 0 0 0 192 0V32zm-72 80a16 16 0 1 1 16-16 16 16 0 0 1-16 16zm80 0a16 16 0 1 1 16-16 16 16 0 0 1-16 16zm-165.41 16a204.07 204.07 0 0 0-34.59 2.89V272l-43.15-64.73a183.93 183.93 0 0 0-44.37 26.17L192 304l-60.94-30.47L128 272v-80a96.1 96.1 0 0 0-96-96 32 32 0 0 0 0 64 32 32 0 0 1 32 32v256a64.06 64.06 0 0 0 64 64h176a16 16 0 0 0 16-16v-16a32 32 0 0 0-32-32h-32l128-96v144a16 16 0 0 0 16 16h32a16 16 0 0 0 16-16V289.86a126.78 126.78 0 0 1-32 4.54c-61.81 0-113.52-44.05-125.41-102.4z"
+                class="fa-secondary">
+        </path>
+              <path
+                fill="currentColor"
+                d="M376 144a16 16 0 1 0 16 16 16 16 0 0 0-16-16zm80 0a16 16 0 1 0 16 16 16 16 0 0 0-16-16zM131.06 273.53L192 304l-23.52-70.56a192.06 192.06 0 0 0-37.42 40.09zM256 272v-77.11a198.62 198.62 0 0 0-43.15 12.38z"
+                class="fa-primary"
+              ></path>
+            </g>
+          </svg>
+          <span class="link-text">Events</span>
+        </a>
+      </li>
+
+      <li class="nav-item">
+        <a href="#" class="nav-link">
+          
+<svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chalkboard-teacher" class="svg-inline--fa fa-chalkboard-teacher fa-w-20" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path fill="currentColor" d="M208 352c-2.39 0-4.78.35-7.06 1.09C187.98 357.3 174.35 360 160 360c-14.35 0-27.98-2.7-40.95-6.91-2.28-.74-4.66-1.09-7.05-1.09C49.94 352-.33 402.48 0 464.62.14 490.88 21.73 512 48 512h224c26.27 0 47.86-21.12 48-47.38.33-62.14-49.94-112.62-112-112.62zm-48-32c53.02 0 96-42.98 96-96s-42.98-96-96-96-96 42.98-96 96 42.98 96 96 96zM592 0H208c-26.47 0-48 22.25-48 49.59V96c23.42 0 45.1 6.78 64 17.8V64h352v288h-64v-64H384v64h-76.24c19.1 16.69 33.12 38.73 39.69 64H592c26.47 0 48-22.25 48-49.59V49.59C640 22.25 618.47 0 592 0z"></path></svg>
+          <span class="link-text">Host Classes</span>
+        </a>
+      </li>
+
+      <li class="nav-item">
+        <a href="#" class="nav-link">
+          
+<svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="globe-europe" class="svg-inline--fa fa-globe-europe fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><path fill="currentColor" d="M248 8C111 8 0 119 0 256s111 248 248 248 248-111 248-248S385 8 248 8zm200 248c0 22.5-3.9 44.2-10.8 64.4h-20.3c-4.3 0-8.4-1.7-11.4-4.8l-32-32.6c-4.5-4.6-4.5-12.1.1-16.7l12.5-12.5v-8.7c0-3-1.2-5.9-3.3-8l-9.4-9.4c-2.1-2.1-5-3.3-8-3.3h-16c-6.2 0-11.3-5.1-11.3-11.3 0-3 1.2-5.9 3.3-8l9.4-9.4c2.1-2.1 5-3.3 8-3.3h32c6.2 0 11.3-5.1 11.3-11.3v-9.4c0-6.2-5.1-11.3-11.3-11.3h-36.7c-8.8 0-16 7.2-16 16v4.5c0 6.9-4.4 13-10.9 15.2l-31.6 10.5c-3.3 1.1-5.5 4.1-5.5 7.6v2.2c0 4.4-3.6 8-8 8h-16c-4.4 0-8-3.6-8-8s-3.6-8-8-8H247c-3 0-5.8 1.7-7.2 4.4l-9.4 18.7c-2.7 5.4-8.2 8.8-14.3 8.8H194c-8.8 0-16-7.2-16-16V199c0-4.2 1.7-8.3 4.7-11.3l20.1-20.1c4.6-4.6 7.2-10.9 7.2-17.5 0-3.4 2.2-6.5 5.5-7.6l40-13.3c1.7-.6 3.2-1.5 4.4-2.7l26.8-26.8c2.1-2.1 3.3-5 3.3-8 0-6.2-5.1-11.3-11.3-11.3H258l-16 16v8c0 4.4-3.6 8-8 8h-16c-4.4 0-8-3.6-8-8v-20c0-2.5 1.2-4.9 3.2-6.4l28.9-21.7c1.9-.1 3.8-.3 5.7-.3C358.3 56 448 145.7 448 256zM130.1 149.1c0-3 1.2-5.9 3.3-8l25.4-25.4c2.1-2.1 5-3.3 8-3.3 6.2 0 11.3 5.1 11.3 11.3v16c0 3-1.2 5.9-3.3 8l-9.4 9.4c-2.1 2.1-5 3.3-8 3.3h-16c-6.2 0-11.3-5.1-11.3-11.3zm128 306.4v-7.1c0-8.8-7.2-16-16-16h-20.2c-10.8 0-26.7-5.3-35.4-11.8l-22.2-16.7c-11.5-8.6-18.2-22.1-18.2-36.4v-23.9c0-16 8.4-30.8 22.1-39l42.9-25.7c7.1-4.2 15.2-6.5 23.4-6.5h31.2c10.9 0 21.4 3.9 29.6 10.9l43.2 37.1h18.3c8.5 0 16.6 3.4 22.6 9.4l17.3 17.3c3.4 3.4 8.1 5.3 12.9 5.3H423c-32.4 58.9-93.8 99.5-164.9 103.1z"></path></svg>
+          <span class="link-text">Resources</span>
+        </a>
+      </li>
+
+      <li class="nav-item">
+        <a href="#" class="nav-link">
+ 
+<svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="sticky-note" class="svg-inline--fa fa-sticky-note fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M312 320h136V56c0-13.3-10.7-24-24-24H24C10.7 32 0 42.7 0 56v400c0 13.3 10.7 24 24 24h264V344c0-13.2 10.8-24 24-24zm129 55l-98 98c-4.5 4.5-10.6 7-17 7h-6V352h128v6.1c0 6.3-2.5 12.4-7 16.9z"></path></svg>
+          <span class="link-text">Blogs</span>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a href="#" class="nav-link">
+
+<svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="copy" class="svg-inline--fa fa-copy fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M433.941 65.941l-51.882-51.882A48 48 0 0 0 348.118 0H176c-26.51 0-48 21.49-48 48v48H48c-26.51 0-48 21.49-48 48v320c0 26.51 21.49 48 48 48h224c26.51 0 48-21.49 48-48v-48h80c26.51 0 48-21.49 48-48V99.882a48 48 0 0 0-14.059-33.941zM266 464H54a6 6 0 0 1-6-6V150a6 6 0 0 1 6-6h74v224c0 26.51 21.49 48 48 48h96v42a6 6 0 0 1-6 6zm128-96H182a6 6 0 0 1-6-6V54a6 6 0 0 1 6-6h106v88c0 13.255 10.745 24 24 24h88v202a6 6 0 0 1-6 6zm6-256h-64V48h9.632c1.591 0 3.117.632 4.243 1.757l48.368 48.368a6 6 0 0 1 1.757 4.243V112z"></path></svg>
+          <span class="link-text">Discussions</span>
+        </a>
+      </li>  
+    <li class="nav-item">
+        <a href="#" class="nav-link">
+
+<svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="user-shield" class="svg-inline--fa fa-user-shield fa-w-20" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path fill="currentColor" d="M622.3 271.1l-115.2-45c-4.1-1.6-12.6-3.7-22.2 0l-115.2 45c-10.7 4.2-17.7 14-17.7 24.9 0 111.6 68.7 188.8 132.9 213.9 9.6 3.7 18 1.6 22.2 0C558.4 489.9 640 420.5 640 296c0-10.9-7-20.7-17.7-24.9zM496 462.4V273.3l95.5 37.3c-5.6 87.1-60.9 135.4-95.5 151.8zM224 256c70.7 0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm96 40c0-2.5.8-4.8 1.1-7.2-2.5-.1-4.9-.8-7.5-.8h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c6.8 0 13.3-1.5 19.2-4-54-42.9-99.2-116.7-99.2-212z"></path></svg>
+          <span class="link-text">Dashboard</span>
+        </a>
+      </li>
+
+      
+          
+        </a>
+      </li>
+    </ul>
+  </nav>
+<br>
+<br>
+<br>
+<br>
+<div id="top" class="container">
+	<div class="row">
+		<div>
+			<br>
+			<br>
+			<br>
+			<br>
+			<h1 class="text" style="color:#6F33FF">CodeClub <br>SMVDU</h1>
+			<p class="text1">
+				This is Official website for SMVDU CodeClub
+				<br>
+			</p>
+			<br>
+			<br>
+			<a href="login.html"><button type="button" id="but1" class="btn btn-outline-info">Log-In</button></a>
+			<a href="signup.html"><button type="button" id="but1" class="btn btn-outline-primary">Sign-Up</button></a>
+			
+        </div>
+		<div class="col-sm-6 col-md-6 col-lg-6">
+			
+			<img class="img-responsive" src="https://dscbvp.dev/static/media/header.6103d4b2.svg" >
+			
+		</div>
+	</div>
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<!--
+<div class="container">
+	<div class="col-sm-12 col-md-12 col-lg-12">
+		<img class="img-responsive" src="https://dscbvp.dev/static/media/blog%20text.5cc6141b.svg">
+	</div>
+</div>
+<br>
+<br>
+<br>
+<div class="container">
+	<div class="row">
+		<div class="col-sm-12 col-md-6 col-lg-4">
+			<div class="card">
+  				<div class="cardbox">
+    				<h4><b>Machine<br> Learning</b></h4> 
+    				<img style="width:30%"src="../pics/mllogo.jpg">
+    				<p>This will contain blogs and articles about machine learning</p>
+  				</div>
+			</div>
+		</div>
+		<div class="col-sm-12 col-md-6 col-lg-4">
+			<div class="card">
+  				<div class="cardbox">
+    				<h4><b>Competitive Programming</b></h4> 
+    				<img style="width:30%"src="../pics/cplogo.jpg">
+    				<br>
+    				<p>This will contain blogs and articles about Competitive programming</p>
+    				
+  				</div>
+			</div>
+		</div>
+		<div class="col-sm-12 col-md-6 col-lg-4">
+			<div class="card">
+  				<div class="cardbox">
+    				<h4><b>Web<br> Development</b></h4> 
+    				<img style="width:30%"src="../pics/weblogo.jpeg">
+    				<p>This will contain blogs and articles about Web development</p>
+    				<br>
+  				</div>
+			</div>
+		</div>		
+	
+	</div>
+	
+</div>
+-->
+<br><br><br><br>
+<br><br><br><br><br>
+
+
+<footer class="page-footer font-small indigo">
+  <div class="container">
+    <div class="row text-center d-flex justify-content-center pt-5 mb-3">
+
+      <div class="col-md-2 mb-3">
+        <h6 class="text-uppercase font-weight-bold">
+          <a href="about.html"><div class="text123">About Us</div></a>
+        </h6>
+      </div>
+      <div class="col-md-2 mb-3">
+        <h6 class="text-uppercase font-weight-bold">
+          <a href="contact-us.html"><div class="text123">Contact Us</div></a>
+        </h6>
+      </div>
+      <div class="col-md-2 mb-3">
+        <h6 class="text-uppercase font-weight-bold">
+          <a href="project.html"><div class="text123">Projects</div></a>
+        </h6>
+      </div>
+      <div class="col-md-2 mb-3">
+        <h6 class="text-uppercase font-weight-bold">
+          <a href="resources.html"><div class="text123">Resources</div></a>
+        </h6>
+      </div>
+      <div class="col-md-2 mb-3">
+        <h6 class="text-uppercase font-weight-bold">
+          <a href="cp.html"><div class="text123">CP corner</div></a>
+        </h6>
+      </div>
+      <div class="col-md-2 mb-3">
+        <h6 class="text-uppercase font-weight-bold">
+          <a href="https://github.com/CodeClubSMVDU"><div class="text123">github</div></a>
+        </h6>
+      </div>
+<div class="footlogo">
+<a href="index.html" >
+    <img class="logoimg" src="../pics/logo.png" alt="logo" >
+</a>
+</div>
+
+
+</footer>
+<script src="../javascript/preloader.js"></script>
+
+</body>
+</html>
+
+

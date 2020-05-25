@@ -1,0 +1,42 @@
+/*-----------------------------------*/
+.nav-bagc {
+  background: linear-gradient(141deg, #1fc8db 51%, #2cb5e8 75%);
+  font-color:white;
+}
+.navbar-nav > li{
+  padding-left: 1em;
+  padding-right: 1.5em;
+}
+.nav-bagc1 {
+  background: linear-gradient(141deg, #9fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+}
+
+.header-font {
+  font-family: 'Balsamiq Sans', cursive;
+  font-size: 20px;
+}
+
+.dropdown-content{
+  list-style-type: none;
+  color:white;
+}
+
+.nav-link1 {
+  color:red ;
+}
+
+ul, li {
+  margin-left: .9em;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.navbar-brand {
+  padding-left: 2em;
+}
+.navbar {
+    -webkit-box-shadow: 0 12px 6px -6px #999;
+    -moz-box-shadow: 0 12px 6px -6px #999;
+    box-shadow: 0 12px 6px -6px #999;
+
+}

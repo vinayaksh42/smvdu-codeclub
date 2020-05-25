@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CodeClub SMVDU</title>
+    <link rel = "icon" href ="../pics/logo.png" type = "image/x-icon"> 
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
+	<link rel="stylesheet" type="text/css" href="../css/index.css" />
+	<link rel="stylesheet" type="text/css" href="../css/preloader.css" />
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+	
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+	
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+	
+	<meta name="viewport" content="width=device-width, height=device-height ,initial-scale=1">
+
+  	<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600;700&display=swap" rel="stylesheet">
+
+  	<link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="../css/navbar.css" />
+
+</head>
+
+
+<body>
+  <div id="overlay">
+  <div class="loader"></div>
+</div>
+<div class="sticky">
+<nav class="navbar navbar-expand-md bg-dark navbar-dark nav-bagc">
+  <a class="navbar-brand" href="index.html">
+    <img class="logoimg" src="../pics/logo.png" alt="logo" >
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav h4 header-font" >
+      <li class="nav-item" >
+        <a class="nav-link" href="events.html">Events</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="hostclasses.html">Host Classes</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropbtn nav-link1" href="resources.html">Resources</a>
+        <ul class="dropdown-content nav-bagc1">
+          <li class="nav-item">
+          <a class="nav-link " href="language.html">Learn Language</a>
+            </li>
+          <li class="nav-item">
+          <a class="nav-link" href="webdevelopment.html">Web Development</a>  
+          </li> 
+          <li class="nav-item">
+          <a class="nav-link" href="ml.html">Machine Learning</a>
+          </li> 
+          <li class="nav-item">
+          <a class="nav-link" href="cp.html">Competitive Programming</a>
+          </li> 
+          <li class="nav-item">
+          <a class="nav-link" href="eh.html">Ethical Hacking</a>
+          </li> 
+          <li class="nav-item">
+          <a class="nav-link" href="mt.html">Misc</a>
+          </li> 
+        </ul>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="blog.html">Blogs</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="discussion.html">Discussion</a>
+      </li>
+      <li class="nav-item" style="float:right;">
+       <a class="nav-link" href="dashboard.html">Dashboard</a>
+      </li>  
+      <li class="nav-item " style="float:right;" id="conduct">
+       <a class="nav-link" href="conduct.html">Code Of Conduct</a>
+      </li>
+
+  </div>    
+    </ul>
+  </div>  
+</nav>
+
+<br>
+<br>
+<div id="top" class="container" style="font-family: 'Josefin Sans', sans-serif;">
+	<div class="row">
+		<div class="col-sm-6 col-md-6 col-lg-6">
+			<br>
+			<br>
+			<br>
+			<br>
+			<h1 class="text" style="color:#6F33FF">CodeClub <br>SMVDU</h1>
+			<p class="text1">
+				This is Official website for SMVDU CodeClub
+				<br>
+			</p>
+			<br>
+			<br>
+			<a href="login.html"><button type="button" id="but1" class="btn btn-outline-info">Log-In</button></a>
+			<a href="signup.html"><button type="button" id="but1" class="btn btn-outline-primary">Sign-Up</button></a>
+			
+        </div>
+		<div class="col-sm-6 col-md-6 col-lg-6">
+			
+			<div class="box" style="font-family: 'Exo 2', sans-serif;">
+  <div class="title">HELLO<br>WORLD!</div>
+  <div class="subtitle"> geek + smart + curious + nerd + ingenious + cunning = US </div>
+</div>
+			
+		</div>
+	</div>
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<script type="text/javascript">
+$(document).ready(function(){
+  var mouseX, mouseY;
+  var ww = $( window ).width();
+  var wh = $( window ).height();
+  var traX, traY;
+  $(document).mousemove(function(e){
+    mouseX = e.pageX;
+    mouseY = e.pageY;
+    traX = ((4 * mouseX) / 570) + 40;
+    traY = ((4 * mouseY) / 570) + 50;
+    console.log(traX);
+    $(".title").css({"background-position": traX + "%" + traY + "%"});
+  });
+});
+
+</script>
+
+<br><br><br><br>
+<br><br><br><br><br>
+
+
+<footer class="page-footer font-small indigo nav-bagc1">
+  <div class="container">
+    <div class="row text-center d-flex justify-content-center pt-5 mb-3">
+
+      <div class="col-md-2 mb-3">
+        <h6 class="text-uppercase font-weight-bold">
+          <a href="about.html"><div class="text123">About Us</div></a>
+        </h6>
+      </div>
+      <div class="col-md-2 mb-3">
+        <h6 class="text-uppercase font-weight-bold">
+          <a href="contact-us.html"><div class="text123">Contact Us</div></a>
+        </h6>
+      </div>
+      <div class="col-md-2 mb-3">
+        <h6 class="text-uppercase font-weight-bold">
+          <a href="#!"><div class="text123">Projects</div></a>
+        </h6>
+      </div>
+      <div class="col-md-2 mb-3">
+        <h6 class="text-uppercase font-weight-bold">
+          <a href="resources.html"><div class="text123">Resources</div></a>
+        </h6>
+      </div>
+      <div class="col-md-2 mb-3">
+        <h6 class="text-uppercase font-weight-bold">
+          <a href="#!"><div class="text123">CP corner</div></a>
+        </h6>
+      </div>
+      <div class="col-md-2 mb-3">
+        <h6 class="text-uppercase font-weight-bold">
+          <a href="#!"><div class="text123">github</div></a>
+        </h6>
+      </div>
+<div class="footlogo">
+<a href="index.html" >
+    <img class="logoimg" src="../pics/logo.png" alt="logo" >
+</a>
+</div>
+
+
+</footer>
+
+<script src="../javascript/preloader.js"></script>
+</body>
+</html>
