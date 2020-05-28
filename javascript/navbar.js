@@ -6,7 +6,7 @@ window.onscroll= function(){scrollFunction()};
 
 function scrollFunction(){
     var a=document.scrollingElement.scrollTop;
-    // console.log(a);
+    console.log(a);
     if(document.scrollingElement.scrollTop>450){
         nav.classList.add('feature');
 
