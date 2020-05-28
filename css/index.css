@@ -9,71 +9,68 @@
 
 html {
   scroll-behavior: smooth;
-    /* min-height: 100%; */
-    position: relative;
-    overflow-x: hidden;
+  /* min-height: 100%; */
+  position: relative;
+  overflow-x: hidden;
 }
 
 /* header */
 
-
-.navbar{
+.navbar {
   height: auto;
   position: fixed;
   width: 100%;
-  color: white ;
-  transition:  2s ease-in-out;
+  color: white;
+  transition: 2s ease-in-out;
 }
 
-.nav-link{
-  color:white;
+.nav-link {
+  color: white;
 }
 
-.navlinknew{
-color: black !important;
+.navlinknew {
+  color: black !important;
 }
 
-.feature{
-height: 100px !important;
-width: 100%;
-background-color: white !important;
-color: black !important;
+.feature {
+  height: 100px !important;
+  width: 100%;
+  background-color: white !important;
+  color: black !important;
 }
 
-
-.logoimg{
-	width: 80px;
+.logoimg {
+  width: 80px;
 }
 
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: rgba(52,58,64,1);
+  background-color: rgba(52, 58, 64, 1);
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
 }
 
 .dropdown:hover .dropdown-content {
-  display: block;}
-
-
-.sticky{
-  position: -webkit-sticky;
-    position: fixed;
-    top: 0;
-    z-index:10;
+  display: block;
 }
 
-.navbar-toggler-icon{
+.sticky {
+  position: -webkit-sticky;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.navbar-toggler-icon {
   color: white;
   background-color: white;
 }
 
-
 /* parallax */
 
-.parallax{
+.parallax {
   background-image: url("../Assets/back.png");
   height: 500px;
   background-attachment: fixed;
@@ -84,11 +81,11 @@ color: black !important;
   z-index: 0;
 }
 
-.parallax-inner{
+.parallax-inner {
   width: 20%;
   height: 200px;
   margin-top: 100px;
-  background: rgba(255,255,255,0.3);
+  background: rgba(255, 255, 255, 0.3);
   position: absolute;
   margin-left: 40%;
   text-align: center;
@@ -97,32 +94,17 @@ color: black !important;
 
 /* content */
 
-
 /* footer */
 
-footer{
- background-color:#343a40;
+footer {
+  background-color: #343a40;
   width: 100%;
   position: absolute;
   max-height: 100%;
 }
 
-
-.footlogo{
+.footlogo {
   margin-top: 25px;
-  margin-right:10px;
+  margin-right: 10px;
   margin-bottom: 20px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
