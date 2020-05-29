@@ -1,19 +1,22 @@
-.logoimg{
-	width: 80px;
+.logoimg {
+  width: 80px;
 }
 
-.text123{
-	color:white;
+.text123 {
+  color: white;
 }
-.img-responsive{
-	width:100%;
+.img-responsive {
+  width: 100%;
 }
-#but1{
-	margin: 30px 10px;padding: 10px;border-radius: 20px;width:150px;
+#but1 {
+  margin: 30px 10px;
+  padding: 10px;
+  border-radius: 20px;
+  width: 150px;
 }
 
 .card {
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
   width: 80%;
   text-align: center;
@@ -21,77 +24,76 @@
 }
 
 .card:hover {
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 
 .cardbox {
   padding: 2px 16px;
 }
 
-
-footer{
-	background-color:#343a40;
+footer {
+  background-color: #343a40;
 }
 
-.sticky{
+.sticky {
   position: -webkit-sticky;
   position: sticky;
   top: 0;
   z-index: 10;
 }
 
-.footlogo{
+.footlogo {
   margin-top: 25px;
-  margin-right:10px;
+  margin-right: 10px;
   margin-bottom: 20px;
 }
 
-.bg-dark{
-  background-color: rgba(52,58,64,1);
+.bg-dark {
+  background-color: rgba(52, 58, 64, 1);
 }
 
-h1{
+h1 {
   text-align: center;
-  font-family: 'Pacifico', cursive;
+  font-family: "Pacifico", cursive;
 }
 
-.desc{
+.desc {
   border: 10px solid black;
 }
 
-.headimg{
+.headimg {
   width: 100%;
   height: 500px;
 }
 
-p{
-  font-family: 'Raleway', sans-serif;
+p {
+  font-family: "Raleway", sans-serif;
   margin-top: 10px;
   font-color: white;
 }
 
-.profile{
+.profile {
   width: 250px;
   height: 250px;
   margin: 2%;
   margin-left: 10px;
   border: 2px solid black;
   border-radius: 50%;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   color: black;
 }
 
-.details{
+.details {
   margin-top: 10px;
   margin-left: 50px;
   margin-right: 40px;
   text-align: center;
   font-size: 15px;
-   font-family: 'Raleway', sans-serif;
-   font-weight: bold;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
 }
 
-.proficon{
+.proficon {
   height: 100px;
   margin-left: 70px;
   margin-top: 40px;
@@ -99,27 +101,27 @@ p{
   border-radius: 50%;
 }
 
-.tab{
+.tab {
   z-index: 5;
 }
 
-.profile:hover{
+.profile:hover {
   width: 250px;
   height: 250px;
   margin: 2%;
   margin-left: 10px;
   border: 2px solid black;
   border-radius: 50%;
-  background-color: rgba(52,58,64,1);
-  color:white;
+  background-color: rgba(52, 58, 64, 1);
+  color: white;
 }
 
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: rgba(52,58,64,1);
+  background-color: rgba(52, 58, 64, 1);
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
 }
 
@@ -131,13 +133,13 @@ p{
   text-align: left;
 }
 
-
 .dropdown:hover .dropdown-content {
-  display: block;}
+  display: block;
+}
 
-.textdash2{
-  font-family: 'Poppins', sans-serif;
-  background-image: url('../pics/aboutusback.jpg');
+.textdash2 {
+  font-family: "Poppins", sans-serif;
+  background-image: url("../pics/aboutusback.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100% 75%;
