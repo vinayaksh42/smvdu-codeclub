@@ -78,34 +78,34 @@ body, html {
 
 }
 .bgimg-1 {
-  background-image: url("../pics/bg1.jpg");
+  background-image: url("../Assets/bg1.jpg");
   min-height: 100%;
 }
 
 .bgimg-2 {
-  background-image: url("../pics/bg2.png");
+  background-image: url("../Assets/bg2.png");
   min-height: 500px;
 }
 
 .bgimg-3 {
-  background-image: url("../pics/bg3.jpg");
+  background-image: url("../Assets/bg3.jpg");
   min-height: 500px;
 }
 
 .bgimg-4 {
-  background-image: url("../pics/bg4.jpg");
+  background-image: url("../Assets/bg4.jpg");
   min-height: 500px;
 }
 .bgimg-5 {
-  background-image: url("../pics/bg5.png");
+  background-image: url("../Assets/bg5.png");
   min-height: 500px;
 }
 .bgimg-6 {
-  background-image: url("../pics/bg6.png");
+  background-image: url("../Assets/bg6.png");
   min-height: 500px;
 }
 .bgimg-7 {
-  background-image: url("../pics/bg7.jpg");
+  background-image: url("../Assets/bg7.jpg");
   min-height: 500px;
 }
 
