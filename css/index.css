@@ -108,3 +108,36 @@ footer {
   margin-right: 10px;
   margin-bottom: 20px;
 }
+
+.social-menu ul{
+  display: flex;
+}
+
+.social-menu ul li{
+  list-style: none;
+  margin: 0 15px;
+}
+
+.social-menu ul li .fa{
+  font-size: 30px;
+  line-height: 60px;
+  transition: 0.6s;
+  color: white;
+}
+
+.social-menu ul li a{
+  position: relative;
+  display: block;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #045bb3;
+  text-align: center;
+  transition: .6s;
+  box-shadow: 0 5px 4px rgba(0, 0, 0, 0.7);
+}
+
+.social-menu ul li a:hover{
+  transform: translate(0, -15px);
+}
+
