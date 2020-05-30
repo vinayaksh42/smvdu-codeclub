@@ -7,7 +7,7 @@
 
 ## Communication
 
-join our discord server https://discord.gg/T3aNcx for discussions related to this website and other off topic discussions.
+Join our discord server https://discord.gg/T3aNcx for discussions related to this website and other off topic discussions.
 
 ### Reference website
 
