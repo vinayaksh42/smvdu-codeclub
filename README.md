@@ -5,6 +5,9 @@
 ![Forks](https://img.shields.io/github/forks/vinayaksh42/smvdu-codeclub)
 ![Stars](https://img.shields.io/github/stars/vinayaksh42/smvdu-codeclub)
 
+## Communication
+join our discord server https://discord.gg/T3aNcx for discussions related to this website and other off topic discussions. 
+
 ### Reference website
 
 1. http://codeit.mit.edu/
