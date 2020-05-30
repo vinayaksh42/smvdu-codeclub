@@ -6,7 +6,8 @@
 ![Stars](https://img.shields.io/github/stars/vinayaksh42/smvdu-codeclub)
 
 ## Communication
-join our discord server https://discord.gg/T3aNcx for discussions related to this website and other off topic discussions. 
+
+join our discord server https://discord.gg/T3aNcx for discussions related to this website and other off topic discussions.
 
 ### Reference website
 
