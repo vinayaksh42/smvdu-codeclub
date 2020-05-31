@@ -1,9 +1,9 @@
-@import 'libs/vars';
-@import 'libs/functions';
-@import 'libs/mixins';
-@import 'libs/vendor';
-@import 'libs/breakpoints';
-@import 'libs/html-grid';
+@import "libs/vars";
+@import "libs/functions";
+@import "libs/mixins";
+@import "libs/vendor";
+@import "libs/breakpoints";
+@import "libs/html-grid";
 
 /*
 	Twenty by HTML5 UP
@@ -13,8 +13,8 @@
 
 /* Banner */
 
-	#banner {
-		.inner {
-			opacity: 1;
-		}
-	}
+#banner {
+  .inner {
+    opacity: 1;
+  }
+}
